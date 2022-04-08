@@ -27,7 +27,7 @@ void Remove (celula *top){
 
 void imprime (celula *top) {
    if (top != NULL) {
-      printf ("%d\n", top->conteudo);
+      printf ("%d\n", top->elemento);
       imprime (top->prox);
    }
 }
