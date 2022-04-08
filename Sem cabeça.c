@@ -25,11 +25,10 @@ void Remove (celula *top){
     top->prox = lixo->prox;
 }
 
-//com cabeça
+void imprime (celula *top) {
+   if (top != NULL) {
+      printf ("%d\n", top->conteudo);
+      imprime (top->prox);
+   }
+}
 
- struct pilha {
-      int conteudo; 
-      struct pilha *prox;
-   };
-
-typedef struct pilha celula;  // célula
