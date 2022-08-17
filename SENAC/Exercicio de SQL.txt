@@ -1,0 +1,1257 @@
+USE TESTEBANCO
+CREATE TABLE cliente(
+cod_cli smallint IDENTITY,
+nome_cli varchar (40),
+endereco varchar (40),
+cidade varchar (40),
+cep char (08),
+uf char (02),
+primary key (cod_cli));
+
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Carla Silva' , 'Rua 9 de julho n 215' , 'São paulo' , '123001' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Carla' , 'Rua 9 de julho n 1' , 'São paulo' , '123002' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Joao Batista' , 'Rua 9 de julho n 22' , 'São paulo' , '123003' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Joao' , 'Rua 9 de julho n 23' , 'São paulo' , '123004' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Lucas' , 'Rua 9 de julho n 24' , 'São paulo' , '122005' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Irineu' , 'Rua 9 de julho n 25' , 'São paulo' , '122006' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('kleber' , 'Rua 9 de julho n 334' , 'São paulo' , '122007' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Cleber' , 'Rua 9 de julho n 256' , 'São paulo' , '122008' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Carlos' , 'Rua 9 de julho n 778' , 'São paulo' , '122009' , 'AC')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Carol' , 'Rua 9 de julho n 77' , 'São paulo' , '122010' , 'RJ')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Carolina' , 'Rua 9 de julho n 275' , 'São paulo' , '122011' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Dave Jones' , 'Rua 9 de julho n 99' , 'São paulo' , '122012' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Juliana' , 'Rua 9 de julho n 290' , 'São paulo' , '122013' , 'RG')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Guilherme' , 'Rua 9 de julho n 97' , 'São paulo' , '122014' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('karla' , 'Rua 9 de julho n 34' , 'São paulo' , '122015' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Karol' , 'Rua 9 de julho n 56' , 'São paulo' , '122016' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Katia' , 'Rua 9 de julho n 67' , 'São paulo' , '122017' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Leonardo' , 'Rua 9 de julho n 223' , 'São paulo' , '122018' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Gustavo' , 'Rua 9 de julho n 112' , 'São paulo' , '122019' , 'SE')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Milena' , 'Rua 9 de julho n 113' , 'São paulo' , '122020' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Vitoria' , 'Rua 9 de julho n 132' , 'São paulo' , '122021' , 'AC')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Bianca' , 'Rua 9 de julho n 215' , 'São paulo' , '122022' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Ana' , 'Rua 9 de julho n 215' , 'Sao jose dos campos' , '122023' , 'RJ')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Debora' , 'Rua 9 de julho n 215' , 'Sao jose dos campos' , '122024' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Natalia' , 'Rua 9 de julho n 215' , 'Sao jose dos campos' , '122025' , 'AM')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('julia' , 'Rua 9 de julho n 215' , 'Sao jose dos campos' , '122026' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Adriana' , 'Rua 9 de julho n 215' , 'Sao jose dos campos' , '122027' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Luiz' , 'Rua 9 de julho n 215' , 'Sao jose dos campos' , '122028' , 'AC')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Luis' , 'Rua 9 de julho n 215' , 'Sao jose dos campos' , '122029' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Adriene' , 'Rua 9 de julho n 215' , 'Sao jose dos campos' , '122030' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Luana' , 'Rua 9 de julho n 215' , 'Sao jose dos campos' , '122031' , 'AC')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Dinardo' , 'Rua 9 de julho n 215' , 'Sao jose dos campos' , '122032' , 'SP')
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Vinicios' , 'Rua 9 de julho n 215' , 'Sao jose dos campos' , '122033' , 'SE')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Vinicius' , 'Rua 9 de julho n 215' , 'Sao jose dos campos' , '122034' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Vitor' , 'Rua 9 de julho n 215' , 'Sao jose dos campos' , '122035' , 'RJ')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Daniel' , 'Rua 9 de julho n 215' , 'Sao jose dos campos' , '122036' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Joel' , 'Rua 9 de julho n 215' , 'Sao jose dos campos' , '122037' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Katrina' , 'Rua 9 de julho n 215' , 'Sao jose dos campos' , '122038' , 'AL')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Katarina' , 'Rua 9 de julho n 215' , 'Sao jose dos campos' , '122039' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Diana' , 'Rua 9 de julho n 215' , 'Sao jose dos campos' , '122040' , 'SE')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Diane' , 'Rua 9 de julho n 215' , 'Sao jose dos campos' , '122041' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Daniela' , 'Rua 9 de julho n 215' , 'Sao jose dos campos' , '122042' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Denise' , 'Rua 9 de julho n 215' , 'Sao jose dos campos' , '122043' , 'RJ')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Gelma' , 'Rua 9 de julho n 215' , 'Sao jose dos campos' , '122044' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Jeniffer' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122045' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Junipher' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122046' , 'PB')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Patricia' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122047' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Eduardo' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122048' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Leon' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122049' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Hian' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122050' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Rian' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122451' , 'PI')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Ruan' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122452' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Paulo' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122453' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Paula' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122454' , 'SE')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Henrique' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122455' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Henrrique' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122456' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Madalena' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122457' , 'RJ')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Luan' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122458' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Jose' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122459' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Joana' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122460' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Jaqueline' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122461' , 'MA')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Jaquelina' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122462' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Solange' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122063' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Lucimara' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122064' , 'RR')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Silvana' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122465' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Silvano' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122466' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Adriano' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122467' , 'RO')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Danilo' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122468' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Charlie' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122469' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Martins' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122470' , 'SE')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Lucia' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122471' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Agnes' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122472' , 'AC')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Camila' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122473' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Pedro' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122474' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Mariana' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122475' , 'RJ')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Thaynan' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122476' , 'SP')
+
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Kaue' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122477' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Thaiane' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122478' , 'MG')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Thais' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122479' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Leticia' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122480' , 'RR')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Thainara' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122481' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Maria' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122482' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Lurdes' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122483' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Valeria' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122484' , 'RN')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Thiago' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122485' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Hugo' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122486' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Alessandra' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122487' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Celso' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122488' , 'PB')
+
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Clarisse' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122489' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Alan' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122490' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Andre' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122491' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Andressa' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122492' , 'TO')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Thamires' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122493' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Fernanda' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122494' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Fernando' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122495' , 'SP')
+
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Ricardo' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122496' , 'SP')
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Richard' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122497' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Juliano' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122498' , 'SE')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Luan' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '122499' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Valesca' , 'Rua 9 de julho n 215' , 'São jose do rio preto' , '1224100' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Gerald' , 'Rua 9 de julho n 215' , 'São Bernardo' , '1224101' , 'RJ')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Geraldo' , 'Rua 9 de julho n 215' , 'São Bernardo' , '1224102' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Yeniffer' , 'Rua 9 de julho n 215' , 'São Bernardo' , '122103' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Keila' , 'Rua 9 de julho n 215' , 'São Bernardo' , '1224104' , 'RR')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Siri' , 'Rua 9 de julho n 215' , 'São Bernardo' , '122105' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Cristian' , 'Rua 9 de julho n 215' , 'São Bernardo' , '1224106' , 'RO')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Cristiano' , 'Rua 9 de julho n 215' , 'São Bernardo' , '1224107' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Jessica' , 'Rua 9 de julho n 215' , 'Sao Bernardo' , '122108' , 'MG')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Bruna' , 'Rua 9 de julho n 215' , 'sao Bernardo' , '122109' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Bruno' , 'Rua 9 de julho n 215' , 'São paulo' , '1224110' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Igor' , 'Rua 9 de julho n 215' , 'São paulo' , '1224111' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Arnaldo' , 'Rua 9 de julho n 215' , 'São paulo' , '1224112' , 'AC')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Amilton' , 'Rua 9 de julho n 215' , 'São paulo' , '1224113' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Felipe' , 'Rua 9 de julho n 215' , 'São paulo' , '122114' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Philip' , 'Rua 9 de julho n 215' , 'São paulo' , '1224115' , 'AM')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Emanuela' , 'Rua 9 de julho n 215' , 'São paulo' , '1224116' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Selena' , 'Rua 9 de julho n 215' , 'São paulo' , '1224117' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Mario' , 'Rua 9 de julho n 215' , 'São paulo' , '1224118' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Fabio' , 'Rua 9 de julho n 215' , 'São paulo' , '1224119' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Fabricio' , 'Rua 9 de julho n 215' , 'São paulo' , '1224120' , 'AM')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Gabi' , 'Rua 9 de julho n 215' , 'São paulo' , '1224121' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Lais' , 'Rua 9 de julho n 215' , 'São paulo' , '1224123' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Tafarel' , 'Rua 9 de julho n 215' , 'São paulo' , '1224124' , 'SE')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Davi' , 'Rua 9 de julho n 215' , 'São paulo' , '1221256' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('David' , 'Rua 9 de julho n 215' , 'São paulo' , '122127' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Jonas' , 'Rua 9 de julho n 215' , 'São paulo' , '1224128' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Gabriel' , 'Rua 9 de julho n 215' , 'São paulo' , '1224129' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Gabriele' , 'Rua 9 de julho n 215' , 'São paulo' , '1224130' , 'RJ')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Josefa' , 'Rua 9 de julho n 215' , 'São paulo' , '1224131' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Dirce' , 'Rua 9 de julho n 215' , 'São paulo' , '1224132' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Ciebele' , 'Rua 9 de julho n 215' , 'São paulo' , '1224133' , 'MA')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Eduarda' , 'Rua 9 de julho n 215' , 'São paulo' , '1224134' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Lazaro' , 'Rua 9 de julho n 215' , 'São paulo' , '1224135' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Alcides' , 'Rua 9 de julho n 215' , 'São paulo' , '1224136' , 'AM')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Aquiles' , 'Rua 9 de julho n 215' , 'São paulo' , '1224137' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Livia' , 'Rua 9 de julho n 215' , 'São paulo' , '1224138' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Viviane' , 'Rua 9 de julho n 215' , 'São paulo' , '1224139' , 'SE')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Cristina' , 'Rua 9 de julho n 215' , 'São paulo' , '1224140' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Gilberto' , 'Rua 9 de julho n 215' , 'São paulo' , '1224141' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Marcelo' , 'Rua 9 de julho n 215' , 'São paulo' , '1224142' , 'RJ')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Marcela' , 'Rua 9 de julho n 215' , 'São paulo' , '1224143' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Ligia' , 'Rua 9 de julho n 215' , 'São paulo' , '1224144' , 'SE')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Vania' , 'Rua 9 de julho n 215' , 'São paulo' , '1224145' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Cinthia' , 'Rua 9 de julho n 215' , 'São paulo' , '1224146' , 'MA')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Junior' , 'Rua 9 de julho n 215' , 'São paulo' , '1224147' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Vera' , 'Rua 9 de julho n 215' , 'São paulo' , '1224148' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Sara' , 'Rua 9 de julho n 215' , 'São paulo' , '1224149' , 'AM')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Sofia' , 'Rua 9 de julho n 215' , 'São paulo' , '1224150' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Karem' , 'Rua 9 de julho n 215' , 'São paulo' , '1224151' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Livia' , 'Rua 9 de julho n 215' , 'São paulo' , '1224152' , 'SE')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Wellintom' , 'Rua 9 de julho n 215' , 'São paulo' , '1224153' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Celia' , 'Rua 9 de julho n 215' , 'São paulo' , '1224154' , 'RJ')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Cesilha' , 'Rua 9 de julho n 215' , 'São paulo' , '1224155' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Caroene' , 'Rua 9 de julho n 215' , 'São paulo' , '1224157' , 'SE')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Caio' , 'Rua 9 de julho n 215' , 'São paulo' , '1224158' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Ingrid' , 'Rua 9 de julho n 215' , 'São paulo' , '1224159' , 'AM')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Breno' , 'Rua 9 de julho n 215' , 'São paulo' , '1224160' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Alana' , 'Rua 9 de julho n 215' , 'São paulo' , '1224161' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Aline' , 'Rua 9 de julho n 215' , 'São paulo' , '1224162' , 'MA')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Luisa' , 'Rua 9 de julho n 215' , 'São paulo' , '1224163' , 'SP')
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Cassia' , 'Rua 9 de julho n 215' , 'São paulo' , '1224164' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Paola' , 'Rua 9 de julho n 215' , 'São paulo' , '1224165' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Nicole' , 'Rua 9 de julho n 215' , 'São paulo' , '1224167' , 'MS')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Mirela' , 'Rua 9 de julho n 215' , 'São paulo' , '1224166' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Marilia' , 'Rua 9 de julho n 215' , 'São paulo' , '1224168' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Augusto' , 'Rua 9 de julho n 215' , 'São paulo' , '1224169' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Lara' , 'Rua 9 de julho n 215' , 'São paulo' , '1224170' , 'MG')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Lana' , 'Rua 9 de julho n 215' , 'São paulo' , '1224171' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Luciana' , 'Rua 9 de julho n 215' , 'São paulo' , '1224172' , 'SE')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Luciano' , 'Rua 9 de julho n 215' , 'São paulo' , '1224173' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Lara' , 'Rua 9 de julho n 215' , 'São paulo' , '1224174' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Laura' , 'Rua 9 de julho n 215' , 'São paulo' , '1224175' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Lis' , 'Rua 9 de julho n 215' , 'São paulo' , '1224176' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Alice' , 'Rua 9 de julho n 215' , 'São paulo' , '1224177' , 'RJ')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Alison' , 'Rua 9 de julho n 215' , 'São paulo' , '12245178' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Sonia' , 'Rua 9 de julho n 215' , 'São paulo' , '1224179' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Emily' , 'Rua 9 de julho n 215' , 'São paulo' , '1224180' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Roraima' , 'Rua 9 de julho n 215' , 'São paulo' , '1224181' , 'RR')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Alberto' , 'Rua 9 de julho n 215' , 'São paulo' , '1224182' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Adalberto' , 'Rua 9 de julho n 215' , 'São paulo' , '1224183' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Estela' , 'Rua 9 de julho n 215' , 'São paulo' , '1224184' , 'RO')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Bela' , 'Rua 9 de julho n 215' , 'São paulo' , '1224185' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Heloisa' , 'Rua 9 de julho n 215' , 'São paulo' , '1224186' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Isadora' , 'Rua 9 de julho n 215' , 'São paulo' , '1224189' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('isabeli' , 'Rua 9 de julho n 215' , 'São paulo' , '1224187' , 'SE')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Isabele' , 'Rua 9 de julho n 215' , 'São paulo' , '1224188' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Clara' , 'Rua 9 de julho n 215' , 'São paulo' , '1224190' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Ingrid' , 'Rua 9 de julho n 215' , 'São paulo' , '1224191' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Lavinia' , 'Rua 9 de julho n 215' , 'São paulo' , '1224192' , 'SE')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Silvia' , 'Rua 9 de julho n 215' , 'São paulo' , '1224193' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Silvio' , 'Rua 9 de julho n 215' , 'São paulo' , '1224194' , 'RR')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Andre' , 'Rua 9 de julho n 215' , 'São paulo' , '1224195' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Suzana' , 'Rua 9 de julho n 215' , 'São paulo' , '1224196' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Bento' , 'Rua 9 de julho n 215' , 'São paulo' , '1224197' , 'AM')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Bernardo' , 'Rua 9 de julho n 215' , 'São paulo' , '1224198' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Caleb' , 'Rua 9 de julho n 215' , 'São paulo' , '1224199' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Cezar' , 'Rua 9 de julho n 215' , 'São paulo' , '1224200' , 'MA')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Flavia' , 'Rua 9 de julho n 215' , 'São paulo' , '1224201' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Enzo' , 'Rua 9 de julho n 215' , 'São paulo' , '1224202' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Rigina' , 'Rua 9 de julho n 215' , 'São paulo' , '1224203' , 'AC')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Reginaldo' , 'Rua 9 de julho n 215' , 'São paulo' , '1224204' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Jorge' , 'Rua 9 de julho n 215' , 'São paulo' , '1224205' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Lorenzo' , 'Rua 9 de julho n 215' , 'São paulo' , '1224206' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Murilo' , 'Rua 9 de julho n 215' , 'São paulo' , '1224207' , 'AC')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Otavio' , 'Rua 9 de julho n 215' , 'São paulo' , '1224208' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Emanuel' , 'Rua 9 de julho n 215' , 'São paulo' , '1224209' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Samuel' , 'Rua 9 de julho n 215' , 'São paulo' , '1224210' , 'RJ')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Samir' , 'Rua 9 de julho n 215' , 'São paulo' , '1224211' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Miquel' , 'Rua 9 de julho n 215' , 'São paulo' , '1224212' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Tales' , 'Rua 9 de julho n 215' , 'São paulo' , '1224213' , 'SE')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Rafael' , 'Rua 9 de julho n 215' , 'São paulo' , '1224214' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Enzo' , 'Rua 9 de julho n 215' , 'São paulo' , '1224215' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Rafaela' , 'Rua 9 de julho n 215' , 'São paulo' , '1224216' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Heitor' , 'Rua 9 de julho n 215' , 'São paulo' , '1224217' , 'AM')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Pietro' , 'Rua 9 de julho n 215' , 'São paulo' , '1224218' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Giovana' , 'Rua 9 de julho n 215' , 'São paulo' , '1224219' , 'MA')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Agatha' , 'Rua 9 de julho n 215' , 'São paulo' , '1224220' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Ester' , 'Rua 9 de julho n 215' , 'São paulo' , '1224221' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Samantha' , 'Rua 9 de julho n 215' , 'São paulo' , '1224222' , 'RR')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Anderson Silva' , 'Rua 9 de julho n 215' , 'São paulo' , '1224223' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Rebeca' , 'Rua 9 de julho n 215' , 'São paulo' , '1224224' , 'RJ')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Anthony' , 'Rua 9 de julho n 215' , 'São paulo' , '1224225' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Oscar' , 'Rua 9 de julho n 215' , 'São paulo' , '1224226' , 'RO')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Virginia' , 'Rua 9 de julho n 215' , 'São paulo' , '1224227' , 'SP')
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Sebastiao' , 'Rua 9 de julho n 215' , 'São paulo' , '1224229' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Lorena' , 'Rua 9 de julho n 215' , 'São paulo' , '1224228' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Isis' , 'Rua 9 de julho n 215' , 'São paulo' , '1224230' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Alicia' , 'Rua 9 de julho n 215' , 'São paulo' , '1224231' , 'RR')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Brenda' , 'Rua 9 de julho n 215' , 'São paulo' , '1224239' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Kemilly' , 'Rua 9 de julho n 215' , 'São paulo' , '1224232' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Eliza' , 'Rua 9 de julho n 215' , 'São paulo' , '1224234' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Maya' , 'Rua 9 de julho n 215' , 'São paulo' , '1224235' , 'AM')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Maira' , 'Rua 9 de julho n 215' , 'São paulo' , '1224236' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Raquel' , 'Rua 9 de julho n 215' , 'São paulo' , '1224237' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Clarice' , 'Rua 9 de julho n 215' , 'São paulo' , '1224238' , 'RJ')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Barbara' , 'Rua 9 de julho n 215' , 'São paulo' , '1224240' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Sabrina' , 'Rua 9 de julho n 215' , 'São paulo' , '1224241' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Evellin' , 'Rua 9 de julho n 215' , 'São paulo' , '1224242' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Israel' , 'Rua 9 de julho n 215' , 'São paulo' , '1224243' , 'MA')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Cloe' , 'Rua 9 de julho n 215' , 'São paulo' , '1224244' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Yara' , 'Rua 9 de julho n 215' , 'São paulo' , '1224245' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Douglas' , 'Rua 9 de julho n 215' , 'São paulo' , '1224246' , 'AM')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Erik' , 'Rua 9 de julho n 215' , 'São paulo' , '1224247' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Angelina' , 'Rua 9 de julho n 215' , 'São paulo' , '1224248' , 'SP')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Raissa' , 'Rua 9 de julho n 215' , 'São paulo' , '1224249' , 'MA')
+
+insert cliente(nome_cli, endereco , cidade , cep , uf )
+values ('Riane' , 'Rua 9 de julho n 215' , 'São paulo' , '1224250' , 'SP')
+
+
+USE TESTEBANCO
+drop table fornecedores
+
+CREATE TABLE fornecedores(
+cod_for smallint IDENTITY,
+nome_for varchar (40),
+endereco varchar (40),
+cidade varchar (40),
+cep char (08),
+cnpj char (14),
+uf char (02),
+primary key (cod_for));
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Serpa','Rua 9 de julho n 215','Para','123090','12345671234567','PA')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Almeida','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Serpa','Rua 9 de julho n 215','Para','123090','12345671234567','PA')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Almeida','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Serpa','Rua 9 de julho n 215','Para','123090','12345671234567','PA')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Almeida','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Serpa','Rua 9 de julho n 215','Para','123090','12345671234567','PA')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Almeida','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Serpa','Rua 9 de julho n 215','Para','123090','12345671234567','PA')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Almeida','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Serpa','Rua 9 de julho n 215','Para','123090','12345671234567','PA')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Almeida','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Serpa','Rua 9 de julho n 215','Para','123090','12345671234567','PA')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Almeida','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Serpa','Rua 9 de julho n 215','Para','123090','12345671234567','PA')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Almeida','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Serpa','Rua 9 de julho n 215','Para','123090','12345671234567','PA')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Almeida','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Serpa','Rua 9 de julho n 215','Para','123090','12345671234567','PA')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Almeida','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Serpa','Rua 9 de julho n 215','Para','123090','12345671234567','PA')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Almeida','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
+insert fornecedores(nome_for, endereco, cidade,cep, cnpj, uf)
+values  ('Carla Silva','Rua 9 de julho n 215','São paulo','123090','12345671234567','SP')
+
